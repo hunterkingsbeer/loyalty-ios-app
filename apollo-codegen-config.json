@@ -1,0 +1,44 @@
+{
+  "schemaNamespace" : "LoyaltyAPI",
+  "input" : {
+    "operationSearchPaths" : [
+      "./LoyaltyApp/GraphQL/DefinedQueries/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "./schema.json"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "././LoyaltyApp/GraphQL/Autogen",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "LoyaltyApp"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  },
+  "schemaDownloadConfiguration": {
+      "downloadMethod": {
+          "introspection": {
+              "endpointURL": "http://192.168.86.90:5112/graphql/",
+              "httpMethod": {
+                  "POST": {}
+              },
+              "includeDeprecatedInputValues": false,
+              "outputFormat": "SDL"
+          }
+      },
+      "downloadTimeout": 60,
+      "headers": [],
+      "outputPath": "./schema.graphql"
+  }
+}

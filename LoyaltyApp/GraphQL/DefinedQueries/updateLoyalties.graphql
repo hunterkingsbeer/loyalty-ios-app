@@ -1,0 +1,3 @@
+mutation UpdateLoyalties($accountUsername: String, $loyalties: [String]) {
+  updateLoyalties(accountUsername: $accountUsername, loyalties: $loyalties)
+}

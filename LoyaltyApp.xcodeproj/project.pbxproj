@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A99F3CB2ADEA724007EC68F /* LoyaltyAPI.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B02ADEA724007EC68F /* LoyaltyAPI.graphql.swift */; };
+		5A99F3CC2ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B32ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift */; };
+		5A99F3CD2ADEA724007EC68F /* CreateAccountMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B42ADEA724007EC68F /* CreateAccountMutation.graphql.swift */; };
+		5A99F3CE2ADEA724007EC68F /* OrganizationQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B62ADEA724007EC68F /* OrganizationQuery.graphql.swift */; };
+		5A99F3CF2ADEA724007EC68F /* OrganizationOfTypeQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B72ADEA724007EC68F /* OrganizationOfTypeQuery.graphql.swift */; };
+		5A99F3D02ADEA724007EC68F /* AccountQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B82ADEA724007EC68F /* AccountQuery.graphql.swift */; };
+		5A99F3D12ADEA724007EC68F /* AllOrganizationsQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B92ADEA724007EC68F /* AllOrganizationsQuery.graphql.swift */; };
+		5A99F3D22ADEA724007EC68F /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3BC2ADEA724007EC68F /* DateTime.swift */; };
+		5A99F3D32ADEA724007EC68F /* OrganizationType.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3BE2ADEA724007EC68F /* OrganizationType.graphql.swift */; };
+		5A99F3D42ADEA724007EC68F /* Account.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C02ADEA724007EC68F /* Account.graphql.swift */; };
+		5A99F3D52ADEA724007EC68F /* Mutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C12ADEA724007EC68F /* Mutation.graphql.swift */; };
+		5A99F3D62ADEA724007EC68F /* Organization.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C22ADEA724007EC68F /* Organization.graphql.swift */; };
+		5A99F3D72ADEA724007EC68F /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C32ADEA724007EC68F /* Query.graphql.swift */; };
+		5A99F3D82ADEA724007EC68F /* OrganizationMedia.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C42ADEA724007EC68F /* OrganizationMedia.graphql.swift */; };
+		5A99F3D92ADEA724007EC68F /* Employee.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C52ADEA724007EC68F /* Employee.graphql.swift */; };
+		5A99F3DA2ADEA724007EC68F /* EmployeeMedia.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C62ADEA724007EC68F /* EmployeeMedia.graphql.swift */; };
+		5A99F3DB2ADEA724007EC68F /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C72ADEA724007EC68F /* SchemaConfiguration.swift */; };
+		5A99F3DC2ADEA724007EC68F /* CreateAccountInput.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3C92ADEA724007EC68F /* CreateAccountInput.graphql.swift */; };
+		5A99F3DD2ADEA724007EC68F /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3CA2ADEA724007EC68F /* SchemaMetadata.graphql.swift */; };
+		5A99F3DF2AE26765007EC68F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A99F3DE2AE26765007EC68F /* README.md */; };
+		5AA133142ABBD044001DE9CC /* LoyaltyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA133132ABBD044001DE9CC /* LoyaltyApp.swift */; };
+		5AA133162ABBD044001DE9CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA133152ABBD044001DE9CC /* ContentView.swift */; };
+		5AA133182ABBD046001DE9CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA133172ABBD046001DE9CC /* Assets.xcassets */; };
+		5AA1331B2ABBD046001DE9CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1331A2ABBD046001DE9CC /* Preview Assets.xcassets */; };
+		5AA1332B2ABBD24C001DE9CC /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1332A2ABBD24C001DE9CC /* UserSettings.swift */; };
+		5AA1332D2ABBD256001DE9CC /* Organisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1332C2ABBD256001DE9CC /* Organisation.swift */; };
+		5AA133372ABBD28F001DE9CC /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA133352ABBD28F001DE9CC /* Utilities.swift */; };
+		5AA1333D2ABBD2BE001DE9CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1333C2ABBD2BE001DE9CC /* HomeView.swift */; };
+		5AA1333F2ABBD2C2001DE9CC /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1333E2ABBD2C2001DE9CC /* Discover.swift */; };
+		5AA133412ABBD2C6001DE9CC /* OrganizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA133402ABBD2C6001DE9CC /* OrganizationView.swift */; };
+		5AA133442ABBD5F5001DE9CC /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 5AA133432ABBD5F5001DE9CC /* Apollo */; };
+		5AA1336D2ABC1464001DE9CC /* organization.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1335F2ABC1463001DE9CC /* organization.graphql */; };
+		5AA133762ABC152A001DE9CC /* GraphQLInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA133752ABC152A001DE9CC /* GraphQLInterface.swift */; };
+		5AA1337A2ABC5E08001DE9CC /* organizationsOfType.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AA133792ABC5E08001DE9CC /* organizationsOfType.graphql */; };
+		5AA1337C2ABC5E17001DE9CC /* allOrganizations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1337B2ABC5E17001DE9CC /* allOrganizations.graphql */; };
+		5AA134402ABDB3B6001DE9CC /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5AA1343F2ABDB3B6001DE9CC /* CachedAsyncImage */; };
+		5AA134A02AC17B16001DE9CC /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA1349F2AC17B16001DE9CC /* FakeData.swift */; };
+		5AA134A22AC17B64001DE9CC /* OrganizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134A12AC17B64001DE9CC /* OrganizationService.swift */; };
+		5AA134A42AC17C46001DE9CC /* OrganizationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134A32AC17C46001DE9CC /* OrganizationHeader.swift */; };
+		5AA134A82AC181AD001DE9CC /* AppointmentsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134A72AC181AD001DE9CC /* AppointmentsSectionView.swift */; };
+		5AA134AA2AC181B6001DE9CC /* AboutSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134A92AC181B6001DE9CC /* AboutSectionView.swift */; };
+		5AA134AC2AC1843F001DE9CC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134AB2AC1843F001DE9CC /* CardView.swift */; };
+		5AA134CC2AC1A299001DE9CC /* StateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134CB2AC1A299001DE9CC /* StateService.swift */; };
+		5AA134CE2AC1A2C6001DE9CC /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA134CD2AC1A2C6001DE9CC /* Account.swift */; };
+		5AA134D02AC1A3D4001DE9CC /* account.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AA134CF2AC1A3D4001DE9CC /* account.graphql */; };
+		5AA1351C2AC1B6CC001DE9CC /* updateLoyalties.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AA1351B2AC1B6CC001DE9CC /* updateLoyalties.graphql */; };
+		5AA135492AC2E148001DE9CC /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 5AA135482AC2E148001DE9CC /* Auth0 */; };
+		5AE557B62AD161E000B4DDE5 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE557B52AD161E000B4DDE5 /* CodeScanner */; };
+		5AE557B92AD1622900B4DDE5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE557B82AD1622900B4DDE5 /* AccountView.swift */; };
+		5AE557E62AD8C09400B4DDE5 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AE557E52AD8C09400B4DDE5 /* Auth0.plist */; };
+		5AE557E92AD8C12200B4DDE5 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE557E82AD8C12200B4DDE5 /* AuthenticationView.swift */; };
+		5AE557EB2AD8C1B400B4DDE5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE557EA2AD8C1B400B4DDE5 /* User.swift */; };
+		5AE558172AD924D300B4DDE5 /* createAccount.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5AE558162AD924D300B4DDE5 /* createAccount.graphql */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A99F3B02ADEA724007EC68F /* LoyaltyAPI.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyAPI.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B32ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateLoyaltiesMutation.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B42ADEA724007EC68F /* CreateAccountMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountMutation.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B62ADEA724007EC68F /* OrganizationQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationQuery.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B72ADEA724007EC68F /* OrganizationOfTypeQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationOfTypeQuery.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B82ADEA724007EC68F /* AccountQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountQuery.graphql.swift; sourceTree = "<group>"; };
+		5A99F3B92ADEA724007EC68F /* AllOrganizationsQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOrganizationsQuery.graphql.swift; sourceTree = "<group>"; };
+		5A99F3BC2ADEA724007EC68F /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		5A99F3BE2ADEA724007EC68F /* OrganizationType.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationType.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C02ADEA724007EC68F /* Account.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C12ADEA724007EC68F /* Mutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mutation.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C22ADEA724007EC68F /* Organization.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C32ADEA724007EC68F /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C42ADEA724007EC68F /* OrganizationMedia.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationMedia.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C52ADEA724007EC68F /* Employee.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C62ADEA724007EC68F /* EmployeeMedia.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeMedia.graphql.swift; sourceTree = "<group>"; };
+		5A99F3C72ADEA724007EC68F /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
+		5A99F3C92ADEA724007EC68F /* CreateAccountInput.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountInput.graphql.swift; sourceTree = "<group>"; };
+		5A99F3CA2ADEA724007EC68F /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
+		5A99F3DE2AE26765007EC68F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		5AA133102ABBD044001DE9CC /* Loyalty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loyalty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA133132ABBD044001DE9CC /* LoyaltyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyApp.swift; sourceTree = "<group>"; };
+		5AA133152ABBD044001DE9CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AA133172ABBD046001DE9CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA1331A2ABBD046001DE9CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AA1332A2ABBD24C001DE9CC /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		5AA1332C2ABBD256001DE9CC /* Organisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organisation.swift; sourceTree = "<group>"; };
+		5AA133352ABBD28F001DE9CC /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5AA1333C2ABBD2BE001DE9CC /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5AA1333E2ABBD2C2001DE9CC /* Discover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		5AA133402ABBD2C6001DE9CC /* OrganizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrganizationView.swift; sourceTree = "<group>"; };
+		5AA1335F2ABC1463001DE9CC /* organization.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = organization.graphql; sourceTree = "<group>"; };
+		5AA133752ABC152A001DE9CC /* GraphQLInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLInterface.swift; sourceTree = "<group>"; };
+		5AA133792ABC5E08001DE9CC /* organizationsOfType.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = organizationsOfType.graphql; sourceTree = "<group>"; };
+		5AA1337B2ABC5E17001DE9CC /* allOrganizations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = allOrganizations.graphql; sourceTree = "<group>"; };
+		5AA1349F2AC17B16001DE9CC /* FakeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		5AA134A12AC17B64001DE9CC /* OrganizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationService.swift; sourceTree = "<group>"; };
+		5AA134A32AC17C46001DE9CC /* OrganizationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationHeader.swift; sourceTree = "<group>"; };
+		5AA134A72AC181AD001DE9CC /* AppointmentsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsSectionView.swift; sourceTree = "<group>"; };
+		5AA134A92AC181B6001DE9CC /* AboutSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSectionView.swift; sourceTree = "<group>"; };
+		5AA134AB2AC1843F001DE9CC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5AA134CB2AC1A299001DE9CC /* StateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateService.swift; sourceTree = "<group>"; };
+		5AA134CD2AC1A2C6001DE9CC /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		5AA134CF2AC1A3D4001DE9CC /* account.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = account.graphql; sourceTree = "<group>"; };
+		5AA1351B2AC1B6CC001DE9CC /* updateLoyalties.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = updateLoyalties.graphql; sourceTree = "<group>"; };
+		5AE557B82AD1622900B4DDE5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		5AE557E52AD8C09400B4DDE5 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		5AE557E82AD8C12200B4DDE5 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		5AE557EA2AD8C1B400B4DDE5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5AE558162AD924D300B4DDE5 /* createAccount.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = createAccount.graphql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA1330D2ABBD044001DE9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE557B62AD161E000B4DDE5 /* CodeScanner in Frameworks */,
+				5AA135492AC2E148001DE9CC /* Auth0 in Frameworks */,
+				5AA133442ABBD5F5001DE9CC /* Apollo in Frameworks */,
+				5AA134402ABDB3B6001DE9CC /* CachedAsyncImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A99F3AF2ADEA724007EC68F /* Autogen */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3B02ADEA724007EC68F /* LoyaltyAPI.graphql.swift */,
+				5A99F3B12ADEA724007EC68F /* Operations */,
+				5A99F3BA2ADEA724007EC68F /* Schema */,
+			);
+			path = Autogen;
+			sourceTree = "<group>";
+		};
+		5A99F3B12ADEA724007EC68F /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3B22ADEA724007EC68F /* Mutations */,
+				5A99F3B52ADEA724007EC68F /* Queries */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		5A99F3B22ADEA724007EC68F /* Mutations */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3B32ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift */,
+				5A99F3B42ADEA724007EC68F /* CreateAccountMutation.graphql.swift */,
+			);
+			path = Mutations;
+			sourceTree = "<group>";
+		};
+		5A99F3B52ADEA724007EC68F /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3B62ADEA724007EC68F /* OrganizationQuery.graphql.swift */,
+				5A99F3B72ADEA724007EC68F /* OrganizationOfTypeQuery.graphql.swift */,
+				5A99F3B82ADEA724007EC68F /* AccountQuery.graphql.swift */,
+				5A99F3B92ADEA724007EC68F /* AllOrganizationsQuery.graphql.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		5A99F3BA2ADEA724007EC68F /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3BB2ADEA724007EC68F /* CustomScalars */,
+				5A99F3BD2ADEA724007EC68F /* Enums */,
+				5A99F3BF2ADEA724007EC68F /* Objects */,
+				5A99F3C72ADEA724007EC68F /* SchemaConfiguration.swift */,
+				5A99F3C82ADEA724007EC68F /* InputObjects */,
+				5A99F3CA2ADEA724007EC68F /* SchemaMetadata.graphql.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		5A99F3BB2ADEA724007EC68F /* CustomScalars */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3BC2ADEA724007EC68F /* DateTime.swift */,
+			);
+			path = CustomScalars;
+			sourceTree = "<group>";
+		};
+		5A99F3BD2ADEA724007EC68F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3BE2ADEA724007EC68F /* OrganizationType.graphql.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		5A99F3BF2ADEA724007EC68F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3C02ADEA724007EC68F /* Account.graphql.swift */,
+				5A99F3C12ADEA724007EC68F /* Mutation.graphql.swift */,
+				5A99F3C22ADEA724007EC68F /* Organization.graphql.swift */,
+				5A99F3C32ADEA724007EC68F /* Query.graphql.swift */,
+				5A99F3C42ADEA724007EC68F /* OrganizationMedia.graphql.swift */,
+				5A99F3C52ADEA724007EC68F /* Employee.graphql.swift */,
+				5A99F3C62ADEA724007EC68F /* EmployeeMedia.graphql.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		5A99F3C82ADEA724007EC68F /* InputObjects */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3C92ADEA724007EC68F /* CreateAccountInput.graphql.swift */,
+			);
+			path = InputObjects;
+			sourceTree = "<group>";
+		};
+		5AA133072ABBD044001DE9CC = {
+			isa = PBXGroup;
+			children = (
+				5A99F3DE2AE26765007EC68F /* README.md */,
+				5AA133122ABBD044001DE9CC /* LoyaltyApp */,
+				5AA133112ABBD044001DE9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA133112ABBD044001DE9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA133102ABBD044001DE9CC /* Loyalty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA133122ABBD044001DE9CC /* LoyaltyApp */ = {
+			isa = PBXGroup;
+			children = (
+				5AA133382ABBD2AA001DE9CC /* Views */,
+				5AA133332ABBD283001DE9CC /* Utilities */,
+				5AA1332E2ABBD265001DE9CC /* GraphQL */,
+				5AA133292ABBD238001DE9CC /* Types */,
+				5AA133132ABBD044001DE9CC /* LoyaltyApp.swift */,
+				5AA133152ABBD044001DE9CC /* ContentView.swift */,
+				5AA133192ABBD046001DE9CC /* Preview Content */,
+				5AE557E52AD8C09400B4DDE5 /* Auth0.plist */,
+			);
+			path = LoyaltyApp;
+			sourceTree = "<group>";
+		};
+		5AA133192ABBD046001DE9CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1331A2ABBD046001DE9CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AA133292ABBD238001DE9CC /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1332C2ABBD256001DE9CC /* Organisation.swift */,
+				5AA1349F2AC17B16001DE9CC /* FakeData.swift */,
+				5AA134CD2AC1A2C6001DE9CC /* Account.swift */,
+				5AE557EA2AD8C1B400B4DDE5 /* User.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		5AA1332E2ABBD265001DE9CC /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				5A99F3AF2ADEA724007EC68F /* Autogen */,
+				5AA1335E2ABC1463001DE9CC /* DefinedQueries */,
+				5AA133752ABC152A001DE9CC /* GraphQLInterface.swift */,
+				5AA134A12AC17B64001DE9CC /* OrganizationService.swift */,
+				5AA134CB2AC1A299001DE9CC /* StateService.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		5AA133332ABBD283001DE9CC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1332A2ABBD24C001DE9CC /* UserSettings.swift */,
+				5AA133172ABBD046001DE9CC /* Assets.xcassets */,
+				5AA133352ABBD28F001DE9CC /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5AA133382ABBD2AA001DE9CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5AE557E72AD8C10E00B4DDE5 /* Authentication */,
+				5AE557B72AD1621F00B4DDE5 /* Account */,
+				5AA1333B2ABBD2B8001DE9CC /* Home */,
+				5AA1333A2ABBD2B3001DE9CC /* Discover */,
+				5AA133392ABBD2AF001DE9CC /* Organization */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AA133392ABBD2AF001DE9CC /* Organization */ = {
+			isa = PBXGroup;
+			children = (
+				5AA133402ABBD2C6001DE9CC /* OrganizationView.swift */,
+				5AA134A32AC17C46001DE9CC /* OrganizationHeader.swift */,
+				5AA134A72AC181AD001DE9CC /* AppointmentsSectionView.swift */,
+				5AA134A92AC181B6001DE9CC /* AboutSectionView.swift */,
+				5AA134AB2AC1843F001DE9CC /* CardView.swift */,
+			);
+			path = Organization;
+			sourceTree = "<group>";
+		};
+		5AA1333A2ABBD2B3001DE9CC /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1333E2ABBD2C2001DE9CC /* Discover.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		5AA1333B2ABBD2B8001DE9CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1333C2ABBD2BE001DE9CC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AA1335E2ABC1463001DE9CC /* DefinedQueries */ = {
+			isa = PBXGroup;
+			children = (
+				5AA1335F2ABC1463001DE9CC /* organization.graphql */,
+				5AA133792ABC5E08001DE9CC /* organizationsOfType.graphql */,
+				5AA1337B2ABC5E17001DE9CC /* allOrganizations.graphql */,
+				5AA134CF2AC1A3D4001DE9CC /* account.graphql */,
+				5AA1351B2AC1B6CC001DE9CC /* updateLoyalties.graphql */,
+				5AE558162AD924D300B4DDE5 /* createAccount.graphql */,
+			);
+			path = DefinedQueries;
+			sourceTree = "<group>";
+		};
+		5AE557B72AD1621F00B4DDE5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5AE557B82AD1622900B4DDE5 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		5AE557E72AD8C10E00B4DDE5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				5AE557E82AD8C12200B4DDE5 /* AuthenticationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA1330F2ABBD044001DE9CC /* LoyaltyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA1331E2ABBD046001DE9CC /* Build configuration list for PBXNativeTarget "LoyaltyApp" */;
+			buildPhases = (
+				5AA1330C2ABBD044001DE9CC /* Sources */,
+				5AA1330D2ABBD044001DE9CC /* Frameworks */,
+				5AA1330E2ABBD044001DE9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoyaltyApp;
+			packageProductDependencies = (
+				5AA133432ABBD5F5001DE9CC /* Apollo */,
+				5AA1343F2ABDB3B6001DE9CC /* CachedAsyncImage */,
+				5AA135482AC2E148001DE9CC /* Auth0 */,
+				5AE557B52AD161E000B4DDE5 /* CodeScanner */,
+			);
+			productName = LoyaltyApp;
+			productReference = 5AA133102ABBD044001DE9CC /* Loyalty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA133082ABBD044001DE9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5AA1330F2ABBD044001DE9CC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AA1330B2ABBD044001DE9CC /* Build configuration list for PBXProject "LoyaltyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA133072ABBD044001DE9CC;
+			packageReferences = (
+				5AA133422ABBD5F5001DE9CC /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				5AA1343E2ABDB3B6001DE9CC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				5AA135472AC2E148001DE9CC /* XCRemoteSwiftPackageReference "Auth0" */,
+				5AE557B42AD161E000B4DDE5 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				5A34B03E2ADD31A700E50F7B /* XCRemoteSwiftPackageReference "ColorThiefSwift" */,
+			);
+			productRefGroup = 5AA133112ABBD044001DE9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA1330F2ABBD044001DE9CC /* LoyaltyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA1330E2ABBD044001DE9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE558172AD924D300B4DDE5 /* createAccount.graphql in Resources */,
+				5AA1337C2ABC5E17001DE9CC /* allOrganizations.graphql in Resources */,
+				5A99F3DF2AE26765007EC68F /* README.md in Resources */,
+				5AA1336D2ABC1464001DE9CC /* organization.graphql in Resources */,
+				5AA1351C2AC1B6CC001DE9CC /* updateLoyalties.graphql in Resources */,
+				5AA1331B2ABBD046001DE9CC /* Preview Assets.xcassets in Resources */,
+				5AA133182ABBD046001DE9CC /* Assets.xcassets in Resources */,
+				5AA1337A2ABC5E08001DE9CC /* organizationsOfType.graphql in Resources */,
+				5AA134D02AC1A3D4001DE9CC /* account.graphql in Resources */,
+				5AE557E62AD8C09400B4DDE5 /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA1330C2ABBD044001DE9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA134AC2AC1843F001DE9CC /* CardView.swift in Sources */,
+				5AA134A82AC181AD001DE9CC /* AppointmentsSectionView.swift in Sources */,
+				5AE557B92AD1622900B4DDE5 /* AccountView.swift in Sources */,
+				5A99F3DB2ADEA724007EC68F /* SchemaConfiguration.swift in Sources */,
+				5A99F3D12ADEA724007EC68F /* AllOrganizationsQuery.graphql.swift in Sources */,
+				5AA134A42AC17C46001DE9CC /* OrganizationHeader.swift in Sources */,
+				5AA1333F2ABBD2C2001DE9CC /* Discover.swift in Sources */,
+				5A99F3DD2ADEA724007EC68F /* SchemaMetadata.graphql.swift in Sources */,
+				5AA133762ABC152A001DE9CC /* GraphQLInterface.swift in Sources */,
+				5A99F3D62ADEA724007EC68F /* Organization.graphql.swift in Sources */,
+				5AA133372ABBD28F001DE9CC /* Utilities.swift in Sources */,
+				5AA134CE2AC1A2C6001DE9CC /* Account.swift in Sources */,
+				5AA134AA2AC181B6001DE9CC /* AboutSectionView.swift in Sources */,
+				5A99F3CC2ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift in Sources */,
+				5AA1333D2ABBD2BE001DE9CC /* HomeView.swift in Sources */,
+				5A99F3D72ADEA724007EC68F /* Query.graphql.swift in Sources */,
+				5A99F3D52ADEA724007EC68F /* Mutation.graphql.swift in Sources */,
+				5A99F3DA2ADEA724007EC68F /* EmployeeMedia.graphql.swift in Sources */,
+				5A99F3D42ADEA724007EC68F /* Account.graphql.swift in Sources */,
+				5AE557EB2AD8C1B400B4DDE5 /* User.swift in Sources */,
+				5A99F3D92ADEA724007EC68F /* Employee.graphql.swift in Sources */,
+				5AA133412ABBD2C6001DE9CC /* OrganizationView.swift in Sources */,
+				5A99F3CF2ADEA724007EC68F /* OrganizationOfTypeQuery.graphql.swift in Sources */,
+				5AA134A22AC17B64001DE9CC /* OrganizationService.swift in Sources */,
+				5A99F3D02ADEA724007EC68F /* AccountQuery.graphql.swift in Sources */,
+				5A99F3CD2ADEA724007EC68F /* CreateAccountMutation.graphql.swift in Sources */,
+				5A99F3D82ADEA724007EC68F /* OrganizationMedia.graphql.swift in Sources */,
+				5AA133162ABBD044001DE9CC /* ContentView.swift in Sources */,
+				5A99F3CB2ADEA724007EC68F /* LoyaltyAPI.graphql.swift in Sources */,
+				5AA1332B2ABBD24C001DE9CC /* UserSettings.swift in Sources */,
+				5A99F3CE2ADEA724007EC68F /* OrganizationQuery.graphql.swift in Sources */,
+				5AE557E92AD8C12200B4DDE5 /* AuthenticationView.swift in Sources */,
+				5AA133142ABBD044001DE9CC /* LoyaltyApp.swift in Sources */,
+				5A99F3DC2ADEA724007EC68F /* CreateAccountInput.graphql.swift in Sources */,
+				5AA134CC2AC1A299001DE9CC /* StateService.swift in Sources */,
+				5AA134A02AC17B16001DE9CC /* FakeData.swift in Sources */,
+				5A99F3D22ADEA724007EC68F /* DateTime.swift in Sources */,
+				5A99F3D32ADEA724007EC68F /* OrganizationType.graphql.swift in Sources */,
+				5AA1332D2ABBD256001DE9CC /* Organisation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AA1331C2ABBD046001DE9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA1331D2ABBD046001DE9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA1331F2ABBD046001DE9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoyaltyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TJ3X96WH43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoyaltyApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes to connect with businesses";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsbeer.LoyaltyApp;
+				PRODUCT_NAME = Loyalty;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA133202ABBD046001DE9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoyaltyApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TJ3X96WH43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoyaltyApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to scan QR codes to connect with businesses";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsbeer.LoyaltyApp;
+				PRODUCT_NAME = Loyalty;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA1330B2ABBD044001DE9CC /* Build configuration list for PBXProject "LoyaltyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA1331C2ABBD046001DE9CC /* Debug */,
+				5AA1331D2ABBD046001DE9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA1331E2ABBD046001DE9CC /* Build configuration list for PBXNativeTarget "LoyaltyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA1331F2ABBD046001DE9CC /* Debug */,
+				5AA133202ABBD046001DE9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A34B03E2ADD31A700E50F7B /* XCRemoteSwiftPackageReference "ColorThiefSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yamoridon/ColorThiefSwift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		5AA133422ABBD5F5001DE9CC /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		5AA1343E2ABDB3B6001DE9CC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		5AA135472AC2E148001DE9CC /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+		5AE557B42AD161E000B4DDE5 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AA133432ABBD5F5001DE9CC /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AA133422ABBD5F5001DE9CC /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		5AA1343F2ABDB3B6001DE9CC /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AA1343E2ABDB3B6001DE9CC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		5AA135482AC2E148001DE9CC /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AA135472AC2E148001DE9CC /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+		5AE557B52AD161E000B4DDE5 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE557B42AD161E000B4DDE5 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5AA133082ABBD044001DE9CC /* Project object */;
+}

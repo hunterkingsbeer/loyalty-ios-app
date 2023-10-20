@@ -1,0 +1,33 @@
+query Organization($organizationUsername: String) {
+  getOrganization(organizationUsername: $organizationUsername) {
+    username
+    type
+
+    name
+    address
+    description
+    color
+    
+    media {
+      logo
+      cover
+      images
+    }
+    
+    employees {
+      username
+      organizationUsername
+      
+      firstName
+      lastName
+      description
+      position
+      dateStarted
+
+      media {
+        profileImage
+        images
+      }
+    }
+  }
+}

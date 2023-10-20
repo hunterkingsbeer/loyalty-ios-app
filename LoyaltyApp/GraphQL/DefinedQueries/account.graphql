@@ -1,0 +1,10 @@
+query Account($accountUsername: String) {
+  getAccount(accountUsername: $accountUsername) {
+    username
+    firstName
+    lastName
+    email
+    birthday
+    loyalties
+  }
+}
