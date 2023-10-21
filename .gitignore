@@ -5,6 +5,7 @@
 apollo-ios-cli
 schema.json
 Autogen/
+.DS_Store
 
 ## User settings
 xcuserdata/

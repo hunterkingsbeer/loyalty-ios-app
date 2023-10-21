@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0D50E82AE3CAD50088B670 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D50E52AE3CAD50088B670 /* home.png */; };
+		5A0D50E92AE3CAD50088B670 /* organization.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D50E62AE3CAD50088B670 /* organization.png */; };
+		5A0D50EA2AE3CAD50088B670 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0D50E72AE3CAD50088B670 /* login.png */; };
 		5A99F3CB2ADEA724007EC68F /* LoyaltyAPI.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B02ADEA724007EC68F /* LoyaltyAPI.graphql.swift */; };
 		5A99F3CC2ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B32ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift */; };
 		5A99F3CD2ADEA724007EC68F /* CreateAccountMutation.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F3B42ADEA724007EC68F /* CreateAccountMutation.graphql.swift */; };
@@ -63,6 +66,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A0D50E52AE3CAD50088B670 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		5A0D50E62AE3CAD50088B670 /* organization.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = organization.png; sourceTree = "<group>"; };
+		5A0D50E72AE3CAD50088B670 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		5A99F3B02ADEA724007EC68F /* LoyaltyAPI.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoyaltyAPI.graphql.swift; sourceTree = "<group>"; };
 		5A99F3B32ADEA724007EC68F /* UpdateLoyaltiesMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateLoyaltiesMutation.graphql.swift; sourceTree = "<group>"; };
 		5A99F3B42ADEA724007EC68F /* CreateAccountMutation.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountMutation.graphql.swift; sourceTree = "<group>"; };
@@ -130,6 +136,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A0D50E42AE3CAA10088B670 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				5A0D50E52AE3CAD50088B670 /* home.png */,
+				5A0D50E72AE3CAD50088B670 /* login.png */,
+				5A0D50E62AE3CAD50088B670 /* organization.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		5A99F3AF2ADEA724007EC68F /* Autogen */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				5A99F3DE2AE26765007EC68F /* README.md */,
+				5A0D50E42AE3CAA10088B670 /* Media */,
 				5AA133122ABBD044001DE9CC /* LoyaltyApp */,
 				5AA133112ABBD044001DE9CC /* Products */,
 			);
@@ -433,14 +450,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0D50E92AE3CAD50088B670 /* organization.png in Resources */,
 				5AE558172AD924D300B4DDE5 /* createAccount.graphql in Resources */,
 				5AA1337C2ABC5E17001DE9CC /* allOrganizations.graphql in Resources */,
+				5A0D50E82AE3CAD50088B670 /* home.png in Resources */,
 				5A99F3DF2AE26765007EC68F /* README.md in Resources */,
 				5AA1336D2ABC1464001DE9CC /* organization.graphql in Resources */,
 				5AA1351C2AC1B6CC001DE9CC /* updateLoyalties.graphql in Resources */,
 				5AA1331B2ABBD046001DE9CC /* Preview Assets.xcassets in Resources */,
 				5AA133182ABBD046001DE9CC /* Assets.xcassets in Resources */,
 				5AA1337A2ABC5E08001DE9CC /* organizationsOfType.graphql in Resources */,
+				5A0D50EA2AE3CAD50088B670 /* login.png in Resources */,
 				5AA134D02AC1A3D4001DE9CC /* account.graphql in Resources */,
 				5AE557E62AD8C09400B4DDE5 /* Auth0.plist in Resources */,
 			);

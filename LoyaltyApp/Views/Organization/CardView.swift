@@ -197,7 +197,7 @@ struct CardDefaultView: View {
             VStack {
                 // logo
                 HStack(alignment: .top) {
-                    Image("icon")
+                    Image("Logo")
                         .resizable()
                         .scaledToFit()
                         .frame(height: logoSize)

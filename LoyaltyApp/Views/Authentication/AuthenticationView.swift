@@ -49,7 +49,7 @@ struct AuthenticationView: View {
                 VStack {
                     Spacer()
                     
-                    Image("icon")
+                    Image("Logo")
                         .resizable()
                         .frame(width: UIScreen.ScreenWidth * 0.35,
                                height: UIScreen.ScreenWidth * 0.35)
