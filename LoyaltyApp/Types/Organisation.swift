@@ -20,18 +20,18 @@ class Organization: ObservableObject, Identifiable {
     let employees: [Employee]
     
     let logoUrl: URL?
-    var logo: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>> {
-        Image.fromAsync(url: logoUrl)
+    var logo: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>> {
+        Image.fromAsync(url: logoUrl, color: color)
     }
     
     let coverUrl: URL?
-    var cover: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>> {
-        Image.fromAsync(url: coverUrl)
+    var cover: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>> {
+        Image.fromAsync(url: coverUrl, color: color)
     }
     
     let imageUrls: [URL?]
-    var images: [CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>>] {
-        imageUrls.map { Image.fromAsync(url: $0) }
+    var images: [CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>>] {
+        imageUrls.map { Image.fromAsync(url: $0, color: color) }
     }
     
     init(username: String,
@@ -118,8 +118,8 @@ class Employee: ObservableObject, Identifiable {
     let organizationMetadata: OrganizationMetadata
     
     let profileUrl: URL?
-    var profileImage: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>> {
-        Image.fromAsync(url: profileUrl)
+    var profileImage: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>> {
+        Image.fromAsync(url: profileUrl, color: organizationMetadata.color)
     }
     
     var dateStartedFormatted: String {

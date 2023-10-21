@@ -21,7 +21,7 @@ class Account: ObservableObject, Identifiable {
     let loyalties: [String]
     
     let profileUrl: URL?
-    var profileImage: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>> {
+    var profileImage: CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>> {
         Image.fromAsync(url: profileUrl)
     }
     

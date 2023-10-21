@@ -51,6 +51,5 @@ struct OrganizationView: View {
                 .padding(.top, 150)
             }
         }
-//        .ignoresSafeArea(edges: .top)
     }
 }

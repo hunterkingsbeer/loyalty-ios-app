@@ -56,7 +56,7 @@ struct RoundedCorner: Shape {
 }
 
 extension Image {
-    static func fromAsync(url: URL?) -> CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, Image>> {
+    static func fromAsync(url: URL?, color: Color = Color("accent")) -> CachedAsyncImage<_ConditionalContent<_ConditionalContent<ProgressView<EmptyView, EmptyView>, Image>, some View>> {
         CachedAsyncImage(url: url) { phase in
             switch phase {
             case .empty:
@@ -64,7 +64,13 @@ extension Image {
             case .success(let img):
                 img.resizable()
             default:
-                Image(systemName: "square.3.layers.3d.down.right.slash")
+                color
+                    .opacity(0.1)
+                    .overlay(
+                        Image(systemName: "square.3.layers.3d.down.right.slash")
+                            .foregroundColor(color)
+                            .brightness(-0.5)
+                    )
             }
         }
     }
